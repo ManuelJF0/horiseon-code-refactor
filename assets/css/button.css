@@ -1,0 +1,16 @@
+.button {
+    color: white;
+    background-color: #2a607c;
+    border: 2px solid white;
+    border-radius: 1cm;
+    padding: 12px 14px;
+    margin: -9px 9px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button:hover {
+    color: #2589bd;
+    background-color: white;
+    border: 2px solid #2589bd;
+}
