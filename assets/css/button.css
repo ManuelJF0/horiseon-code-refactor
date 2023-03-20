@@ -1,3 +1,14 @@
+/* handles the integration of the mouse-over buttons on the header navigation bar */
+
+/* modifies the styling of the buttons */
+/* color = text color
+   background-color = color of button
+   border = thickness, style, and color of border 
+   border-radius = rounds border corners 
+   padding = dimensions of border (h,w) 
+   margin = (reposition buttons vertically, modify spacing between buttons) 
+   transition-duration = time to transition to 'button:hover' values 
+   cursor: pointer = cursor changes to 'pointer' style when placed on button signaling it is interactable */
 .button {
     color: white;
     background-color: #2a607c;
@@ -9,6 +20,7 @@
     cursor: pointer;
 }
 
+/* modifies the styling of the buttons when the mouse cursor is touching a them */
 .button:hover {
     color: #2589bd;
     background-color: white;
