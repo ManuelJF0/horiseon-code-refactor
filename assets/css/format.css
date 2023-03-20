@@ -1,13 +1,18 @@
+/* handles general formatting and styling for webpage as well as header and footer elements */
+
+/* general styling for page */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* general styling for body element */
 body {
     background-color: #d9dcd6;
 }
 
+/* general styling for header element */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,17 +20,20 @@ body {
     color: #ffffff;
 }
 
+/* automatically modifies any h1 elements in header section */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-
-
+/* specific styling for the 'seo' segment in the company's title subtly highlighting it as 'seo' can 
+   also stand for 'search engine optimization' */
 .header span{
     color: #d9dcd6;
 }
 
+/* handles general styling of the 'nav' element of the header for in-depth 
+   modification of the navvigation buttons refer to '~/assets/css/button.css' */
 .header nav {
     display: inline-block;
     float: right;
@@ -34,10 +42,12 @@ body {
     font-size: 20px;
 }
 
+/* position anchor attached to header element to handle positioning of logo element */
 #logo-anchor {
     position: relative;
 }
 
+/* handles the sizing and absolute position of the logo image relative to its parent element tagged w/ '#logo-anchor' */
 #logo {
     position: absolute;
     max-width: 104px;
@@ -46,6 +56,7 @@ body {
     left: 239px;
 }
 
+/* handles the text styling and positioning of the navigation bar header element */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -53,11 +64,12 @@ a {
     float: right;
 }
 
+/* font size of any text content on page tagged w/ 'p' */
 p {
     font-size: 16px;
 }
 
-
+/* general styling of footer element */
 .footer {
     padding: 30px;
     clear: both;
@@ -65,6 +77,7 @@ p {
     text-align: center;
 }
 
+/* automatically modifies any 'h4' elements in the 'footer' element */
 .footer h4 {
     font-size: 20px;
 }
