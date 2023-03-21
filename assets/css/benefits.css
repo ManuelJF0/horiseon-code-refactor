@@ -1,7 +1,7 @@
 /* handles the styling of the 'benefits' sidebar section */
 
 /* general styling of the section including dimensions, positioning, font, and colors */
-.benefits {
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -13,19 +13,13 @@
 }
 
 /* modifies text color and margin between sections of sidebar */
-.benefits-format {
+aside > article {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/* modifies title text of each sidebar section */
-.benefits h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
 /* modifies positioning and dimensions of sidebar images */
-.benefit-img {
+article > img {
     display: block;
     margin: 10px auto;
     max-width: 150px;

@@ -5,6 +5,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-size: 16px;
 }
 
 /* general styling for body element */
@@ -13,71 +14,31 @@ body {
 }
 
 /* general styling for header element */
-.header {
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-/* automatically modifies any h1 elements in header section */
-.header h1 {
-    display: inline-block;
+/* specific styling for the 'seo' segment in the company's title subtly highlighting it as 'seo' can also stand for 'search engine optimization' */
+span {
+    color: #d9dcd6;
     font-size: 48px;
 }
 
-/* specific styling for the 'seo' segment in the company's title subtly highlighting it as 'seo' can 
-   also stand for 'search engine optimization' */
-.header span{
-    color: #d9dcd6;
-}
-
-/* handles general styling of the 'nav' element of the header for in-depth 
-   modification of the navvigation buttons refer to '~/assets/css/button.css' */
-.header nav {
-    display: inline-block;
-    float: right;
-    padding-top: 15px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-}
-
-/* position anchor attached to header element to handle positioning of logo element */
-#logo-anchor {
-    position: relative;
-}
-
-/* handles the sizing and absolute position of the logo image relative to its parent element tagged w/ '#logo-anchor' */
-#logo {
-    position: absolute;
-    max-width: 104px;
-    max-height: 100px;
-    top: 12px;
-    left: 239px;
-}
-
-/* handles the text styling and positioning of the navigation bar header element */
-a {
-    color: #ffffff;
-    text-decoration: none;
-    margin-right: 20px;
-    float: right;
-}
-
-/* font size of any text content on page tagged w/ 'p' */
-p {
-    font-size: 16px;
-}
-
 /* general styling of footer element */
-.footer {
+footer {
+    font-size: 16px;
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-/* automatically modifies any 'h4' elements in the 'footer' element */
-.footer h4 {
+/* styling for 'small' element */
+small {
+    font-weight: bold;
     font-size: 20px;
+    display: block;
 }
