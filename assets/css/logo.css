@@ -1,0 +1,15 @@
+/* handles the styling and positioning of the logo in the header */
+
+/* position anchor attached to header element to handle positioning of logo element */
+#logo-anchor {
+    position: relative;
+}
+
+/* handles the sizing and absolute position of the logo image relative to its parent element tagged w/ '#logo-anchor' */
+#logo {
+    position: absolute;
+    max-width: 104px;
+    max-height: 100px;
+    top: 12px;
+    left: 239px;
+}

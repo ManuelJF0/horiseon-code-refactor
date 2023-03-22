@@ -1,6 +1,23 @@
-/* handles the integration of the mouse-over buttons on the header navigation bar */
+/* handles the styling of the header navigation bar and the integration of the mouse-over buttons */
 
-/* modifies the styling of the buttons */
+/* handles general styling of the 'nav' element of the header */
+nav {
+    display: inline-block;
+    float: right;
+    padding-top: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* handles the styling and positioning of the navigation bar text */
+a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 20px;
+    float: right;
+}
+
+/* modifies the styling of the nav buttons */
 /* color = text color
    background-color = color of button
    border = thickness, style, and color of border 
