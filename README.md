@@ -50,8 +50,7 @@ please refer to license in repository
 
 
 # Project links
-~~~
-[GitHub Repository]
 
-[Deployed Application]
-~~~
+[GitHub Repository](https://github.com/ManuelJF0/horiseon-code-refactor)
+
+[Deployed Application](https://Horiseon-Digital-Marketing)
