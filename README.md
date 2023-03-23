@@ -53,4 +53,4 @@ please refer to license in repository
 
 [GitHub Repository](https://github.com/ManuelJF0/horiseon-code-refactor)
 
-[Deployed Application](https://Horiseon-Digital-Marketing)
+[Deployed Application](https://manueljf0.github.io/horiseon-code-refactor/)
